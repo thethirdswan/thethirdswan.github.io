@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#slanted-box-left {
+	width: 45%;
+	height: 150px;
+	border-top: none;
+	border-left: none;
+	border-bottom: 150px solid #D83A56;
+	border-right: 50px solid transparent;
+	box-sizing: border-box;
+	position: relative;
+	left: -210px;
+	transition: 1.5s;
+    float: left;
+}
+
+.slanted-box-text-left {
+	margin: 15px;
+	color: white;
+}
+
+#slanted-box-right {
+	width: 45%;
+	height: 150px;
+	border-top: 150px solid #D83A56;
+	border-left: 50px solid transparent;
+	border-bottom: none;
+	border-right: none;
+	position: relative;
+    left: 50%;
+	transition: 1.5s;
+    float: right;
+}
+
+.slanted-box-text-right {
+	margin: 10px;
+	color: white;
+	position: relative;
+	bottom: 146px;
+}
+
+#slanted-boxes {
+  overflow: hidden;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+</style>
+</head>
+<body>
+	<div id="slanted-boxes">
+		<div id="slanted-box-left">
+			<p class="slanted-box-text-left">Welcome! This is my website that I usually experiment with.</p>
+		</div>
+		<div id="slanted-box-right">
+			<p class="slanted-box-text-right">This website is still in progress. I plan to use this website for personal use in the future.</p>
+		</div>
+	   </div>
+<script>
+function trapezoidanim() {
+	document.getElementById("slanted-box-left").style.left = "0";
+	document.getElementById("slanted-box-right").style.left = "0";
+};
+
+trapezoidanim()
+</script>
+</body>
+</html> 
