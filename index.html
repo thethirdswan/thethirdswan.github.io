@@ -8,38 +8,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <header id="header">
-    <h2 style="padding: 5px;"><strong>Arya Suwandika</strong></h2>
-  </header>
- <main id="main">
- <nav id="ultra-nav">
-   <button class="btn btn-primary bi bi-chevron-left" id="closeNav" onclick="closeNav()"></button>
-   <p style="margin-left: 10px;">My other websites</p>
-  <ul>
-   <li><a target="blank_" class="ultra-link" href="https://thethirdswan.github.io/dicoding-project-pulau-bali">"Pulau Bali"</a></li>
-   <li><a target="blank_" class="ultra-link" href="https://thethirdswan.github.io/dicoding-project-bookshelf/">Bookshelf</a></li>
-  </ul>
- </nav>
- <div id="slanted-boxes">
- <div id="slanted-box-left">
- 	<p class="slanted-box-text-left">Welcome! This is my website that I usually experiment with.</p>
- </div>
- <div id="slanted-box-right">
- 	<p class="slanted-box-text-right">This website is still in progress. I plan to use this website for personal use in the future.</p>
- </div>
-</div>
-   <button class="btn btn-primary bi bi-chevron-right" id="openNav" onclick="openNav()"></button>
- </main>
- <footer id="footer">
- <p style="text-align: center;">Stay determined :)</p>
-  <nav>
-    <ul id="socmed">
-      <li><a href="https://www.github.com/thethirdswan">My github</a></li>  
-      <li><a href="https://www.instagram.com/thethirdswan7">My instagram</a></li>
-    </ul>
-  </nav>
- </footer>
- <script src="script.js"></script>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<!--  <header id="header" class="bg-light">
+    <h2 class="py-4 px-3"><strong>Arya Suwandika</strong></h2>
+  </header>-->
+  <main id="main">
+<!--  <div id="slanted-boxes">
+    <div id="slanted-box-left">
+ 	    <p class="slanted-box-text-left">Welcome! This is my website that I usually experiment with.</p>
+    </div>
+    <div id="slanted-box-right">
+ 	    <p class="slanted-box-text-right">This website is still in progress. I plan to use this website for personal use in the future.</p>
+    </div>
+  </div>-->
+  <div id="creations" class="carousel carousel-dark slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#creations" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide 1"></button>
+      <button type="button" data-bs-target="#creations" data-bs-slide-to="1" aria-label="slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="https://thethirdswan.github.io/dicoding-project-pulau-bali"><img src="/assets/Screenshot (9).png" class="d-block w-100" alt="stunlock chris"></a>
+        <div class="carousel-caption">
+          <h5>stunlock chris</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="https://thethirdswan.github.io/dicoding-project-bookshelf"><img src="/assets/Screenshot (38).png" class="d-block w-100" alt="gaping family"></a>
+        <div class="carousel-caption">
+          <h5>gaping family</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#creations" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#creations" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </main>
+<footer id="footer">
+ <p class="py-3" style="text-align: center;">Stay determined :)</p>
+    <a href="https://www.github.com/thethirdswan"><img src="/assets/GitHub-Mark-Light-32px.png" class="px-3" alt="My Github"></a>
+    <a href="https://www.instagram.com/thethirdswan7"><img src="/assets/pngegg.png" class="py-2" alt="My Instagram"></a>
+</footer>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
