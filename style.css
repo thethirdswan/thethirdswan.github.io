@@ -4,31 +4,10 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
-#header {
-  display: flex;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  z-index: 1;
-  width: 100%;
-  background-color: white;
-}
-
 #footer {
-  background-color: #54436B;
-  color: #50CB93;
+  background-color: gray;
+  color: #ffffff;
 }
-
-/*#creations {
-  background-color: gold;
-  color: #000060;
-  position: fixed;
-  left: -230px;
-  transition: 0.5s;
-  height: 100vh;
-  border: 1px solid #000060;
-  z-index: 2;
-}*/
 
 #slanted-box-left {
 	width: 45%;
