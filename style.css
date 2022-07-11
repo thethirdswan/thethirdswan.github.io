@@ -9,45 +9,9 @@ body {
   color: #ffffff;
 }
 
-#slanted-box-left {
-	width: 45%;
-	height: 150px;
-	border-top: none;
-	border-left: none;
-	border-bottom: 150px solid #D83A56;
-	border-right: 50px solid transparent;
-	box-sizing: border-box;
-	position: relative;
-	left: -48%;
-	transition: 2s;
-  float: left;
-}
-
-.slanted-box-text-left {
-	margin: 15px;
-	color: white;
-}
-
-#slanted-box-right {
-	width: 45%;
-	height: 150px;
-	border-top: 150px solid #D83A56;
-	border-left: 50px solid transparent;
-	border-bottom: none;
-	border-right: none;
-	position: relative;
-  left: 48%;
-	transition: 2s;
-  float: right;
-}
-
-.slanted-box-text-right {
-	margin: 10px;
-	color: white;
-	position: relative;
-	bottom: 146px;
-}
-
-#slanted-boxes {
-  overflow: hidden;
+@media (min-width: 1200px) {
+  #logo {
+    height: 2.5rem;
+    width: auto;
+  }
 }
