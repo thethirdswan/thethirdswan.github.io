@@ -2,11 +2,14 @@
 
 body {
   font-family: 'Rubik', sans-serif;
+  min-height: 100vh;
 }
 
 #footer {
   background-color: gray;
   color: #ffffff;
+  position: sticky;
+  top: 100vh;
 }
 
 
@@ -22,3 +25,4 @@ body {
     margin-right: 10px;
   }
 }
+
